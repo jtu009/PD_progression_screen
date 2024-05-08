@@ -1,0 +1,22 @@
+---
+title: "Interactive table 1"
+author: "Julia Romanowska"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(DT)
+library(readr)
+library(here)
+
+table1 <- read_csv(here("plr_with_HR_all.csv"))
+```
+
+## Table with results...
+
+```{r}
+datatable(table1)
+```
+
