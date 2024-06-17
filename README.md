@@ -20,8 +20,8 @@ Authors, Title
 |target_CI_low | numeric | Lower confidence limit for the cumulative mortality risk at 8 years in the target group |
 |target_CI_up | numeric | Upper confidence limit for the cumulative mortality risk at 8 years in the target group |
 |control_risk | numeric | Cumulative mortality risk at 8 years in the control group |
-|control_risk_low | numeric | Lower confidence limit for the cumulative mortality risk at 8 years in the control group |
-|control_risk_up | numeric | Upper confidence limit for the cumulative mortality risk at 8 years in the control group |
+|control_CI_low | numeric | Lower confidence limit for the cumulative mortality risk at 8 years in the control group |
+|control_CI_up | numeric | Upper confidence limit for the cumulative mortality risk at 8 years in the control group |
 |risk_diff_8y | numeric | Difference in cumulative mortality risk at 8 years between the treatment arms |
 |risk_diff_CI_low | numeric | Lower confidence limit for the difference in cumulative mortality risk at 8 years between the treatment arms |
 |risk_diff_CI_up | numeric | Upper confidence limit for the difference in cumulative mortality risk at 8 years between the treatment arms |
