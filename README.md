@@ -12,18 +12,23 @@ Authors, Title
 
 | variable name | type | description |
 |---------------|------|-------------|
-|target_durg    | character | ATC code of the target drug |
-|n_target_inits | | |
-|n_control_inits | | |
-|percent_balanced | | |
-|surv_diff_8y | | |
-|surv_diff_CI_low | | |
-|surv_diff_CI_up | | |
-|surv_diff_pval | | |
-|surv_diff_pval_adj | | |
-|hazard_ratio | | |
-|HR_CI_low | | |
-|HR_CI_up | | |
+|target_drug | character | ATC code of the target drug |
+|n_target_inits | numeric | Number of initiations of the target drug |
+|n_control_inits | numeric | Number of initiations of the control drugs |
+|percent_balanced | numeric | Percentage of covariates with a standardized mean difference ≤ 0.1 |
+|target_risk | numeric | Cumulative mortality risk at 8 years in the target group |
+|target_CI_low | numeric | Lower confidence limit for the cumulative mortality risk at 8 years in the target group |
+|target_CI_up | numeric | Upper confidence limit for the cumulative mortality risk at 8 years in the target group |
+|control_risk | numeric | Cumulative mortality risk at 8 years in the control group |
+|control_risk_low | numeric | Lower confidence limit for the cumulative mortality risk at 8 years in the control group |
+|control_risk_up | numeric | Upper confidence limit for the cumulative mortality risk at 8 years in the control group |
+|risk_diff_8y | numeric | Difference in cumulative mortality risk at 8 years between the treatment arms |
+|risk_diff_CI_low | numeric | Lower confidence limit for the difference in cumulative mortality risk at 8 years between the treatment arms |
+|risk_diff_CI_up | numeric | Upper confidence limit for the difference in cumulative mortality risk at 8 years between the treatment arms |
+|pvalue | numeric | P-value for the difference in cumulative mortality risk at 8 years |
+|risk_ratio | numeric | Ratio of cumulative mortality risk at 8 years between the treatment arms |
+|risk_ratio_CI_low | numeric | Lower confidence limit for the ratio of cumulative mortality risk at 8 years between the treatment arms |
+|risk_ratio_CI_up | numeric | Upper confidence limit for the ratio of cumulative mortality risk at 8 years between the treatment arms |
 
 - raw file: [`plr_with_HR_all.csv`](plr_with_HR_all.csv)
 
