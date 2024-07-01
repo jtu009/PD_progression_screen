@@ -30,6 +30,6 @@ Authors, Title
 |risk_ratio_CI_low | numeric | Lower confidence limit for the ratio of cumulative mortality risk at 8 years between the treatment arms |
 |risk_ratio_CI_up | numeric | Upper confidence limit for the ratio of cumulative mortality risk at 8 years between the treatment arms |
 
-- raw file: [`plr_fill_ratio_fullres_main.csv`](plr_diff_ratio_fullres_main.csv)
+- raw file: [`plr_diff_ratio_fullres_main.csv`](plr_diff_ratio_fullres_main.csv)
 
 - interactive table: [`interactive_table1.html`](interactive_table1.html)
