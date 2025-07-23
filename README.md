@@ -6,7 +6,7 @@ Authors, Title
 
 ### Title 1
 
-**Data description:** these are all results from analysis...
+**Data description:** these are all results from the analyses.
 
 **Variables:**
 
